@@ -1,0 +1,31 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "练习 webpack 打包的相关功能和用法",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack serve --mode development",
+    "test": "cross-env NODE_ENV=test webpack --mode production",
+    "build": "cross-env NODE_ENV=prod webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sue-52/Webpack-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sue-52/Webpack-/issues"
+  },
+  "homepage": "https://github.com/Sue-52/Webpack-#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
